@@ -55,12 +55,20 @@ h2 {
     font-size: 2.9rem;
     color: whitesmoke;
     text-align: center;
+    /* border: 2px solid whitesmoke; */
 }
+
+/* h2:hover{
+    border: 2px solid #f22139;
+    color: whitesmoke;
+    text-shadow: 0 0 0.6rem #f22139, 0 0 0.5rem #f22139, -0.2rem 0.1rem 1rem #f22139, 0.2rem 0.1rem 1rem #f22139, 0 -0.5rem 2rem #f22139, 0 0.5rem 3rem #f22139;
+} */
 
 p {
     font-family: 'Exo', sans-serif;
-    font-size: 2rem;
+    font-size: 2rem; 
     color:whitesmoke;
+    line-height:4rem;;
 }
 
 @keyframes fadeIn {
@@ -403,10 +411,15 @@ a img {
     .aboutVid {
         position: relative;
         top: -265px;
+        margin-top: 5rem;;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .aboutVid p {
-        text-align: justify;
+        text-align: center;
         padding-top: 2rem;
     }
     
@@ -438,6 +451,28 @@ a img {
     .food{
         background-image: url(../assets/food.gif);
     }
+
+    /* VIEW MORE BUTTONS */
+    button {
+        margin-top: 1rem;
+        padding: 1rem;
+        border: 2px solid #c31528;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: #F6E8EA;
+        background: black;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 3rem;
+
+      }
+      
+      button:hover,
+      button:focus {
+        border: 2px solid #f22139;
+        color: whitesmoke;
+        text-shadow: 0 0 0.6rem #f22139, 0 0 0.5rem #f22139, -0.2rem 0.1rem 1rem #f22139, 0.2rem 0.1rem 1rem #f22139, 0 -0.5rem 2rem #f22139, 0 0.5rem 3rem #f22139;
+      }
 
 
     /* FORM */
