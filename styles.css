@@ -449,7 +449,7 @@ a img {
     /* FOOD SECTION */
 
     .food{
-        background-image: url(../assets/food.gif);
+        background-image: url(../assets/food-update.gif);
     }
 
     /* DRONE SECTION */
@@ -459,7 +459,7 @@ a img {
 
         /* DRONE SECTION */
         .entertainment{
-            background-image: url(../assets/night-walk.gif);
+            background-image: url(../assets/twirl.gif);
         }
 
     /* VIEW MORE BUTTONS */
