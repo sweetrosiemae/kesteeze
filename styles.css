@@ -452,6 +452,16 @@ a img {
         background-image: url(../assets/food.gif);
     }
 
+    /* DRONE SECTION */
+    .drone{
+        background-image: url(../assets/sky-walk.gif);
+    }
+
+        /* DRONE SECTION */
+        .entertainment{
+            background-image: url(../assets/night-walk.gif);
+        }
+
     /* VIEW MORE BUTTONS */
     button {
         margin-top: 1rem;
